@@ -62,11 +62,11 @@ B-M01 splits the third-moment response into connected and mean-product parts:
 
 $$
 F_A=t\kappa_{3,A}
-+t\operatorname{Sym}(m_{1,A}\otimes U_A)
++t\mathrm{Sym}(m_{1,A}\otimes U_A)
 =F_A^{\rm conn}+F_A^{\rm mean}.
 $$
 
-$U_A$ is the Gaussian reference covariance; $\operatorname{Sym}$ is the sum of three placements. The mean term starts at $O(A^4)$, so the $A^2$ correction is entirely connected. At $A=1$:
+$U_A$ is the Gaussian reference covariance; $\mathrm{Sym}$ is the sum of three placements. The mean term starts at $O(A^4)$, so the $A^2$ correction is entirely connected. At $A=1$:
 
 | Contribution to $\Delta F_1$ | Approximate size, $10^{-6}$ | Certified share |
 | :--- | ---: | ---: |
