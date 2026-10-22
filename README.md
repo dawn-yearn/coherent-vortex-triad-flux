@@ -1,6 +1,6 @@
 # How a coherent vortex reshapes triad energy transfer
 
-**Phase08 · A certified mechanism in two-dimensional Navier–Stokes fluctuations**
+**A certified mechanism in two-dimensional Navier–Stokes fluctuations**
 
 [中文介绍](README.zh-CN.md) · [3-page discovery note](discovery-note.pdf) · [Mathematical details](docs/mathematics.md) · [Evidence & verification](evidence/README.md)
 
@@ -68,11 +68,11 @@ $$
 
 $U_A$ is the Gaussian reference covariance; $\mathrm{Sym}$ is the sum of three placements. The mean term starts at $O(A^4)$, so the $A^2$ correction is entirely connected. At $A=1$:
 
-| Contribution to $\Delta F_1$ | Approximate size, $10^{-6}$ | Certified share |
-| :--- | ---: | ---: |
-| Original connected-triad attenuation | +362.477 | 75.736047%–75.739564% |
-| Other connected triads, net | +113.419 | 23.697093%–23.699571% |
-| Induced mean response | +2.699 | 0.563853%–0.563872% |
+| Contribution to $\Delta F_1$         | Approximate size, $10^{-6}$ | Certified share       |
+|:------------------------------------ | ---------------------------:| ---------------------:|
+| Original connected-triad attenuation | +362.477                    | 75.736047%–75.739564% |
+| Other connected triads, net          | +113.419                    | 23.697093%–23.699571% |
+| Induced mean response                | +2.699                      | 0.563853%–0.563872%   |
 
 The dominant change is a non-Gaussian, amplitude–phase response. It cannot be explained primarily by induced-mean advection.
 
@@ -80,12 +80,12 @@ The dominant change is a non-Gaussian, amplitude–phase response. It cannot be 
 
 The background mixes $k$ with $k\pm e_x,k\pm e_y$ wherever the coupling coefficient is nonzero. Starting from the original triad and its conjugates, we retain successive **coupling-graph neighborhoods**, with unchanged forcing, coefficients and observable. No flux coefficients are fitted.
 
-| Sideband depth | Signed modes | What the certificate reveals |
-| :---: | ---: | :--- |
-| 0 | 6 | Background projection vanishes; predicts $\Delta F=0$. |
-| 1 | 20 | Original attenuation error $<0.71\%$; negative-channel error $>82.73\%$. |
-| 2 | 38 | Negative-channel error $>5.1264\%$; fails the 5% target. |
-| **3** | **62** | **All five targets pass; largest relative error $<0.08530\%$.** |
+| Sideband depth | Signed modes | What the certificate reveals                                             |
+|:--------------:| ------------:|:------------------------------------------------------------------------ |
+| 0              | 6            | Background projection vanishes; predicts $\Delta F=0$.                   |
+| 1              | 20           | Original attenuation error $<0.71\%$; negative-channel error $>82.73\%$. |
+| 2              | 38           | Negative-channel error $>5.1264\%$; fails the 5% target.                 |
+| **3**          | **62**       | **All five targets pass; largest relative error $<0.08530\%$.**          |
 
 The new channels carry approximately **$+255.4\times10^{-6}$** and **$-142.4\times10^{-6}$**, leaving only $113.0\times10^{-6}$ in raw net transfer. Subtracting their mean contribution gives the connected net above. These are fixed B-M01 masks; unlisted channels retain an explicit error bound.
 

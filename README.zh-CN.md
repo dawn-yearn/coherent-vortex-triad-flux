@@ -1,4 +1,4 @@
-# Phase08：相干涡、三元相位与跨尺度通量
+# 相干涡、三元相位与跨尺度通量
 
 [English](README.md) · [3 页英文 PDF](discovery-note.pdf) · [数学说明](docs/mathematics.md) · [精确证书](evidence/README.md)
 
