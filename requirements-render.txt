@@ -1,0 +1,5 @@
+# Optional: only for rebuilding figures and the discovery PDF.
+numpy>=1.26
+matplotlib>=3.8
+reportlab>=4.0
+Pillow>=10.0

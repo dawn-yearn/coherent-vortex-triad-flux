@@ -1,0 +1,55 @@
+{
+  "scope": "Display-only floats derived from exact rational certificates.",
+  "F_center": -0.003965849783683896,
+  "Delta_center": 0.00047859466076054854,
+  "error_radius": 4.778966683896652e-09,
+  "mode_counts": [
+    6,
+    20,
+    38,
+    62
+  ],
+  "target_keys": [
+    "original_connected_change",
+    "other_connected",
+    "other_candidate_positive_raw",
+    "other_candidate_negative_raw",
+    "Delta_total"
+  ],
+  "relative_error_upper_percent": [
+    [
+      100.00264535219966,
+      0.7074719234376781,
+      0.007427472820085629,
+      0.0013718959508131096
+    ],
+    [
+      100.00845456070869,
+      107.20468512652855,
+      6.300063223662534,
+      0.06320098165267503
+    ],
+    [
+      100.00374233396137,
+      1.2778556846703197,
+      0.050723022904088824,
+      0.021317526756464013
+    ],
+    [
+      100.00671352316304,
+      82.75083028820815,
+      5.13348480642689,
+      0.0852962485291856
+    ],
+    [
+      100.00199710310046,
+      25.8203236237893,
+      1.4943712473847468,
+      0.015017088596836686
+    ]
+  ],
+  "channel_centers_micro": {
+    "other_candidate_positive_raw": 255.40511112774948,
+    "other_candidate_negative_raw": -142.37314704705844
+  }
+}

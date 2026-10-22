@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "date": "2026-10-22",
+  "arithmetic": {
+    "status": "PASS",
+    "exact_checks": 3018,
+    "baseline_replayed": true,
+    "mode_counts": [
+      6,
+      20,
+      38,
+      62
+    ],
+    "passing_depth": 3,
+    "scope": "exported arithmetic and source integrity; not a full candidate/residual replay"
+  },
+  "pdf_pages": 3,
+  "pdf_pages_visually_reviewed": [
+    1,
+    2,
+    3
+  ],
+  "figures_visually_reviewed": [
+    "mechanism.png",
+    "convergence.png"
+  ],
+  "local_links_checked": 43,
+  "source_files_unchanged": {
+    "20261020_phase08_card_b": 27,
+    "20261021_phase08_card_b_sparse": 82,
+    "20261021_phase08_card_b_mechanism": 25,
+    "20261021_phase08_card_b_sideband": 46
+  },
+  "external_sources": "Primary scholarly links and the user-specified presentation repository reviewed.",
+  "scope": "Presentation export and arithmetic reconciliation; no new solver, training or DNS.",
+  "render_notes": "Poppler reports a Symbol fallback warning; all final pages were inspected and symbols are legible."
+}

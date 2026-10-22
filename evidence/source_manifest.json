@@ -1,0 +1,57 @@
+{
+  "evidence/full_certificate.json": {
+    "study": "20261021_phase08_card_b_sparse",
+    "source_file": "certificates/refined_n12_certificate.json",
+    "sha256": "b57b2dc7a0814be1879188cfd73007c627771ffd7660144bf784a726868c2e1d"
+  },
+  "evidence/full_independent.json": {
+    "study": "20261021_phase08_card_b_sparse",
+    "source_file": "challenges/refined_n12_independent_certificate.json",
+    "sha256": "67637e9a3e0e0ea285773716a67f71e8940713392bf95eb1b61db1617cba8b7e"
+  },
+  "evidence/mechanism.json": {
+    "study": "20261021_phase08_card_b_mechanism",
+    "source_file": "B-M01_contributions.json",
+    "sha256": "44050320f3671b1986d3cf122584a48faab7013843ee0d0a86cbd0224fc3e0f0"
+  },
+  "evidence/sideband_independent.json": {
+    "study": "20261021_phase08_card_b_sideband",
+    "source_file": "challenges/level_3_independent.json",
+    "sha256": "9db0e0975a4218130a57f8e7975860d32c855534f93f379e3fe427c1cf848305"
+  },
+  "evidence/baseline.json": {
+    "study": "20261020_phase08_card_b",
+    "source_file": "card_b_exact_certificate.json",
+    "sha256": "4ab488247c53dc4c89d4c56a84bb3311d8116b87a8934b373dd421cfe1e2884c"
+  },
+  "scripts/baseline_exact.py": {
+    "study": "20261020_phase08_card_b",
+    "source_file": "card_b_exact_certificate.py",
+    "sha256": "f776aade77879bbc1043450cff5df3b6320979459bcb0bc050e0a962e9c56cf0"
+  },
+  "evidence/sideband_0.json": {
+    "study": "20261021_phase08_card_b_sideband",
+    "source_file": "certificates/level_0_certificate.json",
+    "sha256": "26a0e7bf8830f6643cdf52c8b15dd30022f790770d0f7f853a15ec9399e0e45a"
+  },
+  "evidence/sideband_1.json": {
+    "study": "20261021_phase08_card_b_sideband",
+    "source_file": "certificates/level_1_certificate.json",
+    "sha256": "1b931109aa6a5c2fed46ed2bfe524ae2dce583b9d73f080849d1191d01474f90"
+  },
+  "evidence/sideband_2.json": {
+    "study": "20261021_phase08_card_b_sideband",
+    "source_file": "certificates/level_2_certificate.json",
+    "sha256": "4ae82333f3c18e3bda0bc4f4ca449c3d2e561bfa7dc800c890f01b4bcd7f1088"
+  },
+  "evidence/sideband_3.json": {
+    "study": "20261021_phase08_card_b_sideband",
+    "source_file": "certificates/level_3_certificate.json",
+    "sha256": "41dc82572262e731ee392787ae55b626bf9b51a7bead4872a77c3afb397bba3a"
+  },
+  "scripts/paper_style.py": {
+    "study": "project_shared_plotting_style",
+    "source_file": "src/turbulence_sr/plotting/paper_style.py",
+    "sha256": "15d743e792a11acc9ff2f621794a086188400d250f6504d00a86f7bd1ba0e177"
+  }
+}
